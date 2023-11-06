@@ -1,10 +1,10 @@
 /** @format */
 
-import { useContext } from "react";
-import close from "../assets/close.png";
-import theme from "../assets/theme.png";
-import { ThemeContext } from "../context/themeContext";
-import { Link } from "react-router-dom";
+import { useContext } from 'react';
+import close from '../assets/close.png';
+import theme from '../assets/theme.png';
+import { ThemeContext } from '../context/ThemeContext';
+import { Link } from 'react-router-dom';
 
 const ToggleMenu = (props) => {
   const { toggleTheme } = useContext(ThemeContext);
