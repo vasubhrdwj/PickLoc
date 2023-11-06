@@ -1,12 +1,12 @@
 /** @format */
 
-import Side from "./Side";
+import Side from './Side';
 
 const About = () => {
   return (
     <div className="w-11/12 m-auto py-20 md:w-10/12">
       <div className="flex flex-col md:flex-row md:gap-24 items-baseline">
-        <div className="md:w-2/3">
+        <div className="md:w-2/3 pb-10">
           <h1 className="text-3xl mb-7">About</h1>
           <p>
             This is an example of a page. Unlike posts, which are displayed on
