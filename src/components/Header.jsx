@@ -28,14 +28,14 @@ const Header = () => {
           <img
             src={menuBlack}
             alt="menu"
-            className="w-5"
+            className="w-5 cursor-pointer"
             onClick={() => handleToggleMenu()}
           />
         ) : (
           <img
             src={menu}
             alt="menu black"
-            className="w-5"
+            className="w-5 cursor-pointer"
             onClick={() => handleToggleMenu()}
           />
         )}

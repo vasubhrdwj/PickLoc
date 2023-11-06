@@ -14,13 +14,13 @@ const ToggleMenu = (props) => {
         <img
           src={theme}
           alt="dark mode"
-          className="w-8 mr-5"
+          className="w-8 mr-5 cursor-pointer"
           onClick={() => toggleTheme()}
         />
         <img
           src={close}
           alt=""
-          className="w-8"
+          className="w-8 cursor-pointer"
           onClick={() => props.handleToggleMenu()}
         />
       </div>
