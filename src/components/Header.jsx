@@ -1,9 +1,9 @@
 /** @format */
 
-import { useContext, useEffect, useState } from 'react';
+import { useContext, useState } from 'react';
 import menu from '../assets/menuWhite.png';
 import menuBlack from '../assets/menuBlack.png';
-import { ThemeContext } from '../context/themeContext';
+import { ThemeContext } from '../context/ThemeContext';
 import ToggleMenu from './ToggleMenu';
 import { Link } from 'react-router-dom';
 
