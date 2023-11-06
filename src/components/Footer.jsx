@@ -7,7 +7,7 @@ import facebookBlack from '../assets/facebook-black.png';
 import twitterBlack from '../assets/twitter-black.png';
 import instagramBlack from '../assets/instagram-black.png';
 import { useContext } from 'react';
-import { ThemeContext } from '../context/themeContext';
+import { ThemeContext } from '../context/ThemeContext';
 
 const Footer = () => {
   const { theme } = useContext(ThemeContext);
