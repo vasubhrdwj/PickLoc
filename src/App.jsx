@@ -1,10 +1,10 @@
 /** @format */
 
-import HomePage from "./pages/HomePage";
-import AboutPage from "./pages/AboutPage";
-import BlogPage from "./pages/BlogPage";
-import { Route, Routes } from "react-router-dom";
-import ThemeContextProvider from "./context/themeContext";
+import HomePage from './pages/HomePage';
+import AboutPage from './pages/AboutPage';
+import BlogPage from './pages/BlogPage';
+import { Route, Routes } from 'react-router-dom';
+import ThemeContextProvider from './context/ThemeContext';
 
 const App = () => {
   return (
