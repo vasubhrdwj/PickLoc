@@ -1,12 +1,12 @@
 /** @format */
 
-import Header from "../components/Header";
-import Footer from "../components/Footer";
-import About from "../components/About";
+import Header from '../components/Header';
+import Footer from '../components/Footer';
+import About from '../components/About';
 
 const AboutPage = () => {
   return (
-    <div>
+    <div className="dark:bg-black">
       <Header />
       <About />
       <Footer />
