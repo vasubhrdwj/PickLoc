@@ -4,6 +4,7 @@ import { useContext } from "react";
 import close from "../assets/close.png";
 import theme from "../assets/theme.png";
 import { ThemeContext } from "../context/themeContext";
+import { Link } from "react-router-dom";
 
 const ToggleMenu = (props) => {
   const { toggleTheme } = useContext(ThemeContext);
@@ -24,9 +25,15 @@ const ToggleMenu = (props) => {
         />
       </div>
       <ul className="mt-4">
-        <li className="text-white py-3 text-center">Home</li>
-        <li className="text-white py-3 text-center">About</li>
-        <li className="text-white py-3 text-center">Blog</li>
+        <Link to="/" className="text-white py-3 text-center block">
+          Home
+        </Link>
+        <Link to="/about" className="text-white py-3 text-center block">
+          About
+        </Link>
+        <Link to="/blog" className="text-white py-3 text-center block">
+          Blog
+        </Link>
       </ul>
     </div>
   );

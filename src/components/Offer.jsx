@@ -1,6 +1,6 @@
 /** @format */
 
-import b2 from "../assets/b2.jpg";
+import b2 from '../assets/b2.jpg';
 
 const Offer = () => {
   return (

@@ -1,26 +1,19 @@
 /** @format */
 
-import Header from "./components/Header";
-import Hero from "./components/Hero";
-import Explore from "./components/Explore";
-import LearnMore from "./components/LearnMore";
-import Quote from "./components/Quote";
-import Offer from "./components/Offer";
-import Footer from "./components/Footer";
+import HomePage from "./pages/HomePage";
+import AboutPage from "./pages/AboutPage";
+import BlogPage from "./pages/BlogPage";
+import { Route, Routes } from "react-router-dom";
 import ThemeContextProvider from "./context/themeContext";
 
 const App = () => {
   return (
     <ThemeContextProvider>
-      <div className="dark:bg-black">
-        <Header />
-        <Hero />
-        <Explore />
-        <LearnMore />
-        <Quote />
-        <Offer />
-        <Footer />
-      </div>
+      <Routes>
+        <Route path="/" element={<HomePage />} />
+        <Route path="/about" element={<AboutPage />} />
+        <Route path="/blog" element={<BlogPage />} />
+      </Routes>
     </ThemeContextProvider>
   );
 };
