@@ -55,7 +55,7 @@ const LearnMore = () => {
             <button
               key={index}
               onClick={() => goToImage(index)}
-              className={`w-6 h-6 rounded-full bg-white focus:outline-none ${
+              className={`w-3 h-3 rounded-full bg-white focus:outline-none ${
                 index === currentImage ? 'opacity-100' : 'opacity-50'
               }`}
             ></button>
