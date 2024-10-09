@@ -4,7 +4,7 @@ import bg from '../assets/wallpaperflare.com_wallpaper.jpg';
 
 const Hero = () => {
   return (
-    <div className="w-full h-[50vh] bg-black dark:bg-white">
+    <div className="w-full h-[50vh] bg-white dark:bg-black">
       <div className="w-11/12 h-full relative ml-auto mr-auto">
         <img
           src={bg}

@@ -16,24 +16,24 @@ const Header = () => {
   };
 
   return (
-    <div className="w-full bg-black h-[72px] flex items-center dark:bg-white">
+    <div className="w-full bg-white h-[72px] flex items-center dark:bg-black">
       <div className="w-11/12 flex items-center justify-between m-auto">
         <Link
           to="/"
-          className="text-white text-2xl dark:text-black dark:border-black"
+          className="text-black text-3xl dark:text-white dark:border-black"
         >
           PickLoc
         </Link>
         {theme === 'dark' ? (
           <img
-            src={menuBlack}
+            src={menu}
             alt="menu"
             className="w-5 cursor-pointer"
             onClick={() => handleToggleMenu()}
           />
         ) : (
           <img
-            src={menu}
+            src={menuBlack}
             alt="menu black"
             className="w-5 cursor-pointer"
             onClick={() => handleToggleMenu()}

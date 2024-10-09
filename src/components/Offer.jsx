@@ -4,7 +4,7 @@ import b2 from '../assets/b2.jpg';
 
 const Offer = () => {
   return (
-    <div className="w-full bg-black dark:bg-white">
+    <div className="w-full bg-white dark:bg-black">
       <div className="w-11/12 h-[650px] ml-auto relative">
         <img src={b2} alt="photo 2" className="w-full h-full object-cover" />
         <div className="absolute top-1/2 -translate-y-1/2 left-10">

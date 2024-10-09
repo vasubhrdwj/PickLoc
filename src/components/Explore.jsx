@@ -1,7 +1,7 @@
 /** @format */
-import a3 from '../assets/a1.jpg';
-import a2 from '../assets/a2.jpg';
-import a1 from '../assets/finland.jpg';
+import a3 from '../assets/nexus-esplanade.jpg';
+import a2 from '../assets/Infocity-Bbsr.jpg';
+import a1 from '../assets/KIIT-University-Campus.jpg';
 
 const Explore = () => {
   return (
@@ -10,19 +10,22 @@ const Explore = () => {
         <h1 className="text-3xl py-4 dark:text-white">
           Locations
         </h1>
-        <p className="dark:text-white">
-          We believe that travel is about creating memories that last a
-          lifetime. Our trips are designed to leave a lasting impression.
+        <p className="dark:text-white pr-8">
+        Hungry for adventure?<br/>
+         Pick a spot, and we'll dish out the tastiest cafes and restaurants near you. 
+         Let your cravings lead the way!
         </p>
       </div>
       <div className="relative h-[430px] overflow-hidden group">
+      
         <img
-          src={a3}
+          src={a1}
           alt="photo 1"
           class="w-full h-full object-cover group-hover:scale-110 ease-in-out duration-500 cursor-pointer"
         />
-        <p className="absolute left-1/2 -translate-x-1/2 bottom-4 text-white border-b border-white ease-in-out group-hover:-translate-y-4 duration-500">
-          Sweden
+        
+        <p className="absolute left-1/2 text-lg -translate-x-1/2 bottom-4 font-semibold text-white border-b border-white ease-in-out group-hover:-translate-y-4 duration-500">
+          KIIT Road
         </p>
       </div>
       <div className="relative h-[430px] overflow-hidden group">
@@ -31,20 +34,22 @@ const Explore = () => {
           alt="photo 2"
           className="w-full h-full object-cover hover:scale-110 ease-in-out duration-500 cursor-pointer"
         />
-        <p className="absolute left-1/2 -translate-x-1/2 bottom-4 text-white border-b border-white ease-in-out group-hover:-translate-y-4 duration-500">
-          Norway
+        <p className="absolute left-1/2 -translate-x-1/2 bottom-4 text-white font-semibold text-lg border-b border-white ease-in-out group-hover:-translate-y-4 duration-500">
+          Infocity
         </p>
       </div>
       <div className="relative h-[430px] overflow-hidden group">
         <img
-          src={a1}
+          src={a3}
           alt="photo 3"
           className="w-full h-full object-cover hover:scale-110 ease-in-out duration-500 cursor-pointer"
         />
-        <p className="absolute left-1/2 -translate-x-1/2 bottom-4 text-white border-b border-white ease-in-out group-hover:-translate-y-4 duration-500">
-          Finland
+        <p className="absolute left-1/2 text-lg -translate-x-1/2 bottom-4 font-semibold text-white border-b border-white ease-in-out group-hover:-translate-y-4 duration-500">
+          Esplanade
         </p>
       </div>
+
+
     </div>
   );
 };
