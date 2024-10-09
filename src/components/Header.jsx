@@ -18,9 +18,10 @@ const Header = () => {
   return (
     <div className="w-full bg-white h-[72px] flex items-center dark:bg-black">
       <div className="w-11/12 flex items-center justify-between m-auto">
+        <p className='dark:text-white text-xl border border-white p-2 shadow-md shadow-teal-200'>AV</p>
         <Link
           to="/"
-          className="text-black text-3xl dark:text-white dark:border-black"
+          className="text-3xl m-auto font-bold dark:text-white dark:border-black"
         >
           PickLoc
         </Link>

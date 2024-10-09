@@ -1,9 +1,9 @@
 /** @format */
 
-import b1 from '../assets/b1.jpg';
-import b2 from '../assets/b3.jpeg';
-import b3 from '../assets/b4.jpg';
-import b5 from '../assets/b5.jpeg';
+import b1 from '../assets/prc-1.jpg';
+import b2 from '../assets/prc-3.jpg';
+import b3 from '../assets/prc-2.jpeg';
+import b5 from '../assets/prc-4.jpg';
 
 import { useEffect, useState } from 'react';
 
@@ -33,11 +33,12 @@ const LearnMore = () => {
     <div className="w-11/12 m-auto md:w-10/12">
       <div className="flex flex-col py-20 md:flex-row gap-10">
         <h1 className="text-3xl dark:text-white">
-          A travel company that does things differently
+        Click your cravings away and uncover local gems
         </h1>
         <p className="dark:text-white">
-          We believe that travel is about creating unforgettable memories. Our
-          trips are designed to leave a lasting impression.
+        From quick bites to fine dining, we'll guide you to the perfect spot based on your preferences and current location. 
+        <br/>Start your food journey now!
+
         </p>
       </div>
       <div className="w-full h-[650px] relative">
