@@ -63,7 +63,7 @@ const LearnMore = () => {
           ))}
         </div>
       </div>
-      <div className="w-full grid grid-cols-1 gap-5 py-10 md:grid-cols-3">
+      {/* <div className="w-full grid grid-cols-1 gap-5 py-10 md:grid-cols-3">
         <div>
           <h1 className="text-2xl dark:text-white">Excellence</h1>
           <p className="my-6 dark:text-white">
@@ -88,7 +88,7 @@ const LearnMore = () => {
           </p>
           <p className="text-orange-400 underline">LEARN MORE</p>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 };

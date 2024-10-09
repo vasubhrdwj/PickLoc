@@ -5,7 +5,7 @@ import a1 from '../assets/KIIT-University-Campus.jpg';
 
 const Explore = () => {
   return (
-    <div className="w-11/12 m-auto grid grid-cols-1 gap-5 my-10 md:grid-cols-4 md:w-10/12">
+    <div className="w-11/12 m-auto mt-24 grid grid-cols-1 gap-5 my-10 md:grid-cols-4 md:w-10/12">
       <div>
         <h1 className="text-3xl py-4 dark:text-white">
           Locations

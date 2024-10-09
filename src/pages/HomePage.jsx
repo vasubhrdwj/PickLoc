@@ -15,8 +15,8 @@ const HomePage = () => {
       <Hero />
       <Explore />
       <LearnMore />
-      <Quote />
-      <Offer />
+      {/* <Quote /> */}
+      {/* <Offer /> */}
       <Footer />
     </div>
   );

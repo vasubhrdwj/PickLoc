@@ -14,7 +14,7 @@ const Footer = () => {
   return (
     <div className="bg-white w-full h-24 flex items-center dark:bg-black">
       <div className="w-10/12 m-auto flex justify-between">
-        <p className="text-black text-lg dark:text-white">OUTLAND</p>
+        <p className="text-black text-xl dark:text-white">PickLoc</p>
         <div className="flex items-center">
           {theme === 'dark' ? (
             <img src={facebook} alt="facebook" className="w-5 mr-5" />
