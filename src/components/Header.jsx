@@ -17,12 +17,12 @@ const Header = () => {
 
   return (
     <div className="w-full bg-black h-[72px] flex items-center dark:bg-white">
-      <div className="w-10/12 flex items-center justify-between m-auto">
+      <div className="w-11/12 flex items-center justify-between m-auto">
         <Link
           to="/"
-          className="text-white border-b border-white dark:text-black dark:border-black"
+          className="text-white text-2xl dark:text-black dark:border-black"
         >
-          OUTLAND
+          PickLoc
         </Link>
         {theme === 'dark' ? (
           <img
